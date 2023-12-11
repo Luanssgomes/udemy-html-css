@@ -1,0 +1,499 @@
+ /* 4. external */
+ body{
+    padding-bottom:500px; 
+}
+
+h3 { 
+    color: green;
+}
+
+
+    /*  9. classes */
+.paragraf{ 
+    background-color: black;
+    color:aqua;
+    padding: 5px;
+}
+
+
+    /* 10. IDs */
+#exclusive-title{
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+}
+
+
+    /* 11. ordens das regras*/
+h2{ 
+    border-bottom: 2px solid red;
+}
+
+.titulo {
+     border-bottom: 3px solid blue;
+}
+
+#algum-titulo{
+    border-bottom: 4px solid green;
+}
+
+
+    /* 13. nome de cores */
+.color-name{
+    color:crimson;
+}
+
+
+    /* 14. HEX */
+.hex {
+    color:#55a398;
+}
+.hex-2 { 
+    color: #ff00d0;
+}
+
+
+    /* 15. HEX simplificado */
+.simpel-hex-2 {
+    color: #5a3
+}
+
+
+    /* 15. RGB */
+.rgb{
+    color: rgb(255,0,0);
+}
+.mixed-rgb { 
+    color: rgb(199,21,19);
+}
+
+
+    /* 16. RGBA */
+.rgba{
+    color: rgba(100, 199, 45, 0.3);
+}
+
+    /* 17. HSL */
+.hsl{ 
+    color: hsl(250, 20%, 50%);
+}
+.hsl-2{ 
+    color: hsl(250, 40%, 10%)
+}
+
+
+    /* 18. Background */
+.bg{ 
+    background-color: black;
+    color: yellow;
+}
+.bg-2 { 
+    background-color: rgba(199,21,19, 0.3);
+    color: #000;
+}
+
+
+    /* 19. backgound opacity */
+.bg-opacity{
+    background-color: green;
+    opacity: 0.2;
+}
+.bg-opacity-2{
+    background-color: #999;
+    color: black ;
+    opacity: 0.8;
+}
+
+
+    /* 20. rgba com opacidade */
+.rgba-opacity{ 
+    background-color: rgba(90, 120, 20, 0.2);
+    color: black
+}
+
+
+    /* 21. bg image */
+.bg-image{
+    background-image: url(../css/img/th.jpeg);
+    padding: 10px;
+    color: #000;
+}
+
+
+    /* 22. centralizando bg image */
+.not-centered-bg,
+.centered-bg{
+    height: 400px;
+    width: 400px;
+    background-image: url("../css/img/th.jpeg"); 
+}
+.centered-bg{
+    background-position: center;
+    background-size: cover;
+}
+
+
+    /* 24. altura e largura */
+.height-width {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+.height-width-2 {
+    height: 300px;
+    background-color: #333;
+}
+
+
+    /* 25. padding */
+.without-padding,
+.padding{
+    background-color: #111;
+    color: #fff;
+}
+.padding{
+    padding: 20px;
+    background-color: #333;
+}
+
+
+    /* 26. padding individuais */
+.padding-individual{
+    background-color: #222;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+
+    /* 27. shorthand padding */
+.shorthand-padding{
+    background-color: #444;
+    padding: 6px 12px 18px 24px;
+}
+.shorthand-padding-2{
+    background-color: #555;
+    padding: 10px 20px;
+}
+
+
+    /* 28. padding com width */
+.without-border-box{
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+}
+.border-box{
+    background-color: #444;
+    color: #fff;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+    /* 29. border */
+.border{
+    border: 5px solid red;
+    padding: 10px;
+}
+.border-2{
+    border: 2px dotted #931;
+    padding: 20px;
+}
+
+
+    /* 30. borda individual */
+.border-left{
+    border-left: 3px solid red;
+    background-color: #222;
+    padding: 25px;
+}
+.border-bottom{
+    border-bottom: 5px double #399;
+    background-color: #222;
+    padding: 20px;
+}
+
+
+    /* 31. borda arredondada */
+.rounded-p{
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+.rounded-p-2{
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+    /* 32. margin */
+.margin{
+    margin: 10px;
+    background-color:#222;
+}    
+.margin-top{
+    margin-top: 50px;
+    background-color: #ff0303;
+    padding: 10px;
+}
+.margin-shorthand{
+    background-color: #666;
+    margin: 5px 10px 15px 20px;
+}
+
+
+    /* 33. Box model */
+.box-model{
+    margin: 20px;
+    padding: 15px 25px;
+    border: 3px solid #845;
+    border-radius: 7px;
+    width: 200px;
+    height: 400px;
+} 
+.teste{
+    background-color: #ff00d0;
+}
+
+
+    /*  34. text align */
+.text-aligned{
+    text-align: right;
+}
+.container-center{
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
+
+
+    /* 35. text decoration */
+.underline{
+    text-decoration: underline;
+}
+.line-trough{
+    text-decoration: line-through;
+}
+.remove-underline{
+    text-decoration: none;
+    color: green;
+}
+
+
+    /* 36. uppercase e lowcase */
+.upper{
+    text-transform: uppercase;
+}
+.lower{
+    text-transform: lowercase;
+}
+
+
+    /* 37. spacing */
+.spacing{
+    letter-spacing: 20px;
+}
+
+
+    /* 38. fontes */
+.serif{
+    font-family: Georgia;
+}
+.sans-serif{
+    font-family: helvetica;
+}
+.monospace{
+    font-family: 'Courier New';
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+
+
+    /* 39. text style */
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+
+
+    /* 40. font weight */
+.thin,
+.bold,
+.bolder{
+    font-family: Helvetica;
+}
+.thin{
+    font-weight: 100;
+}
+.bold{
+    font-weight: 600;
+}
+.bolder{
+    font-weight: 900;
+}
+
+
+    /* 41. font-size */
+.small{
+    font-size: 6px;
+}
+.big{
+    font-size: 78px;
+}
+
+
+    /*  42. display */
+.inline-box{
+    width: 50px;
+    height: 50px;
+    background-color: #4f8;
+    margin: 10px;
+    display: inline-block;
+}
+.block{
+    background-color: #333;
+    display: block;
+    color: white;
+    margin: 10px;
+}
+
+
+    /* 43. econdendo elementos */
+.invisible{
+    display: none;
+}
+
+
+    /* 45. static */
+.static{
+    position: static;
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 100px;
+/*veja q não faz efeito, top, left, right e bottom*/
+    top: 100px;
+    left: 40px; 
+}
+
+
+    /* 46. relative */
+.relative{
+    position: relative;
+    background-color: #224;
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+
+
+    /*47. absolute */
+.absolute{
+    position: absolute;
+    background-color: #964;
+    color: white;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+
+    /* 48. absolute relative  */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+.absolute-1,
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: #422;
+    position: absolute;
+}
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+
+
+    /* 49. fixed */
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: #851;
+    border: 1px solid blue;
+    margin-top: 120px;
+    position: fixed ;
+    top: 50px;
+    right: 100px;
+    color: white;
+}
+
+
+    /* 50. stick */
+.stick{
+    width: 100px;
+    height: 100px;
+    background-color: #994;
+    border: 1px solid green;
+    position: sticky;
+    color: white;
+    top: 10px;
+}
+
+
+    /* z-index */
+.absolute-3,
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background-color: #123;
+    position: absolute;
+}
+.absolute-3{
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #246;
+    z-index: 2;
+}
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: #345;
+    z-index: 1;
+}
+
+
+
